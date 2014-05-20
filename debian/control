@@ -1,0 +1,114 @@
+Source: khelpcenter
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
+ extra-cmake-modules (>= 0.0.13), qtbase5-dev, libkf5kcmutils-dev (>= 4.99.0),
+ libkf5i18n-dev (>= 4.99.0), libkf5xmlgui-dev (>= 4.99.0),
+ libkf5windowsystem-dev (>= 4.99.0), libkf5solid-dev (>= 4.99.0), 
+ libkf5kdelibs4support-dev (>= 4.99.0), plasma-framework-dev (>= 4.99.0),
+ libkf5kdelibs4support5-bin (>= 4.99.0), libkf5unitconversion-dev (>= 4.99.0),
+ libkf5textwidgets-dev (>= 4.99.0), libkf5parts-dev (>= 4.99.0), 
+ libkf5notifications-dev (>= 4.99.0), kinit-dev (>= 4.99.0),
+ libkf5itemmodels-dev (>= 4.99.0), libkf5iconthemes-dev (>= 4.99.0),
+ libkf5guiaddons-dev (>= 4.99.0), libkf5emoticons-dev (>= 4.99.0),
+ kdoctools-dev (>= 4.99.0), kgendesignerplugin (>= 4.99.0),
+ libkf5crash-dev (>= 4.99.0), libkf5coreaddons-dev (>= 4.99.0),
+ libkf5configwidgets-dev (>= 4.99.0), libkf5auth-dev (>= 4.99.0),
+ libkf5attica-dev (>= 4.99.0), libkf5textwidgets-dev (>= 4.99.0),
+ libkf5itemviews-dev (>= 4.99.0), libkf5iconthemes-dev (>= 4.99.0),
+ libkf5globalaccel-dev (>= 4.99.0), libkf5config-dev (>= 4.99.0),
+ libkf5service-dev (>= 4.99.0), libkf5widgetsaddons-dev (>= 4.99.0),
+ libkf5dbusaddons-dev (>= 4.99.0), kf5-kio-dev (>= 4.99.0),
+ libkf5jobwidgets-dev (>= 4.99.0), libkf5completion-dev (>= 4.99.0),
+ libkf5bookmarks-dev (>= 4.99.0), libkf5sonnet-dev (>= 4.99.0),
+ libkf5codecs-dev (>= 4.99.0), libraw1394-dev,
+ libkf5khtml-dev (>= 4.99.0), libkf5wallet-dev (>= 4.99.0),
+ libkf5kjs-dev (>= 4.99.0) 
+Standards-Version: 3.9.5
+Section: doc
+Homepage: https://projects.kde.org/unstable/plasma/khelpcenter
+
+Package: khelpcenter-dev
+Section: devel
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, khelpcenter5 (= ${binary:Version})
+Description: KDE documentation system
+ KHelpCenter uses meta data files which describe the 
+ documentation available in the system. Each document
+ is represented by a meta data file and shown as an
+ entry in the KHelpCenter navigation tree view.
+ The meta data contains information about title
+ and short description of the document, the location
+ of the document and some more information like how
+ to search the document and translations of title
+ and description. Document hierarchy is represented
+ as hierarchy of the meta data files. Directories are
+ also described by a meta data file which contains
+ the same information as a document meta data file.
+ .
+ This package contains the development files
+
+Package: khelpcenter5
+Section: doc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, khelpcenter5-data (= ${binary:Version})
+Breaks: khelpcenter4
+Replaces: khelpcenter4
+Description: KDE documentation system
+ KHelpCenter uses meta data files which describe the 
+ documentation available in the system. Each document
+ is represented by a meta data file and shown as an
+ entry in the KHelpCenter navigation tree view.
+ The meta data contains information about title
+ and short description of the document, the location
+ of the document and some more information like how
+ to search the document and translations of title
+ and description. Document hierarchy is represented
+ as hierarchy of the meta data files. Directories are
+ also described by a meta data file which contains
+ the same information as a document meta data file.
+ .
+ This package contains the shared library
+
+Package: khelpcenter5-data
+Section: doc
+Architecture: any 
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: kde-l10n-engb
+Description: KDE documentation system data files
+ KHelpCenter uses meta data files which describe the 
+ documentation available in the system. Each document
+ is represented by a meta data file and shown as an
+ entry in the KHelpCenter navigation tree view.
+ The meta data contains information about title
+ and short description of the document, the location
+ of the document and some more information like how
+ to search the document and translations of title
+ and description. Document hierarchy is represented
+ as hierarchy of the meta data files. Directories are
+ also described by a meta data file which contains
+ the same information as a document meta data file.
+ .
+ This package contains the shared library
+
+Package: khelpcenter5-dbg
+Section: debug
+Architecture: any
+Recommends: qtbase5-dbg
+Depends: ${misc:Depends}, khelpcenter5 (= ${binary:Version})
+Description: KDE documentation system debug files
+ KHelpCenter uses meta data files which describe the 
+ documentation available in the system. Each document
+ is represented by a meta data file and shown as an
+ entry in the KHelpCenter navigation tree view.
+ The meta data contains information about title
+ and short description of the document, the location
+ of the document and some more information like how
+ to search the document and translations of title
+ and description. Document hierarchy is represented
+ as hierarchy of the meta data files. Directories are
+ also described by a meta data file which contains
+ the same information as a document meta data file.
+ .
+ This package contains the debugging symbols.
