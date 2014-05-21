@@ -1,4 +1,4 @@
 usr/bin/khelpcenter
 usr/share/applications/Help.desktop
 usr/lib/*/libkdeinit5_khelpcenter.so
-usr/share/dbus-1
+usr/lib/*/libexec
