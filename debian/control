@@ -75,7 +75,6 @@ Package: khelpcenter5-data
 Section: doc
 Architecture: any 
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: kde-l10n-engb
 Description: KDE documentation system data files
  KHelpCenter uses meta data files which describe the 
  documentation available in the system. Each document
