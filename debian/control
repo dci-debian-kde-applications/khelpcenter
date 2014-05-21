@@ -22,7 +22,7 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5dbusaddons-dev (>= 4.99.0), kf5-kio-dev (>= 4.99.0),
  libkf5jobwidgets-dev (>= 4.99.0), libkf5completion-dev (>= 4.99.0),
  libkf5bookmarks-dev (>= 4.99.0), libkf5sonnet-dev (>= 4.99.0),
- libkf5codecs-dev (>= 4.99.0), libraw1394-dev,
+ libkf5codecs-dev (>= 4.99.0),
  libkf5khtml-dev (>= 4.99.0), libkf5wallet-dev (>= 4.99.0),
  libkf5kjs-dev (>= 4.99.0) 
 Standards-Version: 3.9.5
@@ -32,82 +32,70 @@ Homepage: https://projects.kde.org/unstable/plasma/khelpcenter
 Package: khelpcenter-dev
 Section: devel
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, khelpcenter5 (= ${binary:Version})
-Description: KDE documentation system
- KHelpCenter uses meta data files which describe the 
- documentation available in the system. Each document
- is represented by a meta data file and shown as an
- entry in the KHelpCenter navigation tree view.
- The meta data contains information about title
- and short description of the document, the location
- of the document and some more information like how
- to search the document and translations of title
- and description. Document hierarchy is represented
- as hierarchy of the meta data files. Directories are
- also described by a meta data file which contains
- the same information as a document meta data file.
+Depends: ${shlibs:Depends}, ${misc:Depends}, khelpcenter (= ${binary:Version})
+Description: KDE documentation viewer
+ KHelpCenter uses meta data files which describe the documentation
+ available in the system. Each document is represented by a meta data
+ file and shown as an entry in the KHelpCenter navigation tree view.
+ The meta data contains information about title and short description
+ of the document, the location of the document and some more
+ information like how to search the document and translations of title
+ and description. Document hierarchy is represented as hierarchy of
+ the meta data files. Directories are also described by a meta data
+ file which contains the same information as a document meta data
+ file.
  .
  This package contains the development files
 
-Package: khelpcenter5
-Section: doc
+Package: khelpcenter
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, khelpcenter5-data (= ${binary:Version})
-Breaks: khelpcenter4
+Depends: ${shlibs:Depends}, ${misc:Depends}, khelpcenter-data (= ${binary:Version})
+Conflicts: khelpcenter4
 Replaces: khelpcenter4
-Description: KDE documentation system
- KHelpCenter uses meta data files which describe the 
- documentation available in the system. Each document
- is represented by a meta data file and shown as an
- entry in the KHelpCenter navigation tree view.
- The meta data contains information about title
- and short description of the document, the location
- of the document and some more information like how
- to search the document and translations of title
- and description. Document hierarchy is represented
- as hierarchy of the meta data files. Directories are
- also described by a meta data file which contains
- the same information as a document meta data file.
- .
- This package contains the shared library
+Description: KDE documentation viewer
+ KHelpCenter uses meta data files which describe the documentation
+ available in the system. Each document is represented by a meta data
+ file and shown as an entry in the KHelpCenter navigation tree view.
+ The meta data contains information about title and short description
+ of the document, the location of the document and some more
+ information like how to search the document and translations of title
+ and description. Document hierarchy is represented as hierarchy of
+ the meta data files. Directories are also described by a meta data
+ file which contains the same information as a document meta data
+ file.
 
-Package: khelpcenter5-data
-Section: doc
-Architecture: any 
+Package: khelpcenter-data
+Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: KDE documentation system data files
- KHelpCenter uses meta data files which describe the 
- documentation available in the system. Each document
- is represented by a meta data file and shown as an
- entry in the KHelpCenter navigation tree view.
- The meta data contains information about title
- and short description of the document, the location
- of the document and some more information like how
- to search the document and translations of title
- and description. Document hierarchy is represented
- as hierarchy of the meta data files. Directories are
- also described by a meta data file which contains
- the same information as a document meta data file.
+Description: KDE documentation viewer
+ KHelpCenter uses meta data files which describe the documentation
+ available in the system. Each document is represented by a meta data
+ file and shown as an entry in the KHelpCenter navigation tree view.
+ The meta data contains information about title and short description
+ of the document, the location of the document and some more
+ information like how to search the document and translations of title
+ and description. Document hierarchy is represented as hierarchy of
+ the meta data files. Directories are also described by a meta data
+ file which contains the same information as a document meta data
+ file.
  .
- This package contains the shared library
+ This package contains the data files.
 
 Package: khelpcenter5-dbg
 Section: debug
 Architecture: any
 Recommends: qtbase5-dbg
-Depends: ${misc:Depends}, khelpcenter5 (= ${binary:Version})
-Description: KDE documentation system debug files
- KHelpCenter uses meta data files which describe the 
- documentation available in the system. Each document
- is represented by a meta data file and shown as an
- entry in the KHelpCenter navigation tree view.
- The meta data contains information about title
- and short description of the document, the location
- of the document and some more information like how
- to search the document and translations of title
- and description. Document hierarchy is represented
- as hierarchy of the meta data files. Directories are
- also described by a meta data file which contains
- the same information as a document meta data file.
+Depends: ${misc:Depends}, khelpcenter (= ${binary:Version})
+Description: KDE documentation viewer
+ KHelpCenter uses meta data files which describe the documentation
+ available in the system. Each document is represented by a meta data
+ file and shown as an entry in the KHelpCenter navigation tree view.
+ The meta data contains information about title and short description
+ of the document, the location of the document and some more
+ information like how to search the document and translations of title
+ and description. Document hierarchy is represented as hierarchy of
+ the meta data files. Directories are also described by a meta data
+ file which contains the same information as a document meta data
+ file.
  .
  This package contains the debugging symbols.
