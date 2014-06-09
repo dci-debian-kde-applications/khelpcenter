@@ -1,4 +1,4 @@
-khelpcenter (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
+khelpcenter (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Initial release.
@@ -6,4 +6,4 @@ khelpcenter (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:24:33 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:233 +0100
