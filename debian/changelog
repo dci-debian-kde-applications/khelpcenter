@@ -1,6 +1,6 @@
-khelpcenter (4.97.0a-0ubuntu1) UNRELEASED; urgency=medium
+baloo5 (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
-  * Initial release.
+  * Initial package
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:233 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:23:43 +0100
