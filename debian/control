@@ -3,7 +3,7 @@ Priority: extra
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.14), qtbase5-dev, libkf5kcmutils-dev (>= 4.100.0),
+ extra-cmake-modules (>= 4:None), qtbase5-dev, libkf5kcmutils-dev (>= 4.100.0),
  libkf5i18n-dev (>= 4.100.0), libkf5xmlgui-dev (>= 4.100.0),
  libkf5windowsystem-dev (>= 4.100.0), libkf5solid-dev (>= 4.100.0), 
  libkf5kdelibs4support-dev (>= 4.100.0), plasma-framework-dev (>= 4.100.0),
