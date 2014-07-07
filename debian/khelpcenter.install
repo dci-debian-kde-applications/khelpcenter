@@ -1,4 +1,4 @@
 usr/bin/khelpcenter
-usr/share/applications/Help.desktop
-usr/lib/*/libkdeinit5_khelpcenter.so
 usr/lib/*/libexec
+usr/lib/*/libkdeinit5_khelpcenter.so
+usr/share/applications/Help.desktop
