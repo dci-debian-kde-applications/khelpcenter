@@ -6,6 +6,14 @@ khelpcenter (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Update watch to http://download.kde.org 
 
+  [ Harald Sitter ]
+  * Drop the khelpcenter-data package and merge it into the app package.
+    + Adjust installs accordingly
+  * Rename khelpcenter5-dbg to khelpcenter-dbg
+    + Adjust rules accordingly
+    + Doesn't replace conflict as there is no binary conflict due to
+      buildids
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 20:02:25 +0200
 
 khelpcenter (4:4.98.0-0ubuntu1) utopic; urgency=medium
