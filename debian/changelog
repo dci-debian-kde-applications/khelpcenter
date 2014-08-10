@@ -1,4 +1,4 @@
-khelpcenter (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+khelpcenter (4:5.0.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -14,7 +14,10 @@ khelpcenter (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
     + Doesn't replace conflict as there is no binary conflict due to
       buildids
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 20:02:25 +0200
+  [ Jonathan Riddell ]
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:41:18 +0200
 
 khelpcenter (4:4.98.0-0ubuntu1) utopic; urgency=medium
 
