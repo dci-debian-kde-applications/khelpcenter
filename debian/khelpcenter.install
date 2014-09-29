@@ -6,4 +6,5 @@ usr/share/config.kcfg
 usr/share/doc
 usr/share/khelpcenter
 usr/share/kservices5
+usr/share/kxmlgui5
 usr/share/locale
