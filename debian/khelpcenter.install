@@ -1,7 +1,7 @@
-usr/bin/khelpcenter
+usr/bin/
 usr/lib/*/libexec
 usr/lib/*/libkdeinit5_khelpcenter.so
-usr/share/applications/Help.desktop
+usr/share/applications/
 usr/share/config.kcfg
 usr/share/doc
 usr/share/khelpcenter

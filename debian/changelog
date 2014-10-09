@@ -12,6 +12,8 @@ khelpcenter (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
       show up prominently in kickoff. It is however onlyshowin=kde, so there
       is tighter control that a desktop entry menu gui implementation actually
       supports this.
+  * Make install file more generic to catch future updates to
+    applications desktop file and binary name
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:26:05 +0200
 
