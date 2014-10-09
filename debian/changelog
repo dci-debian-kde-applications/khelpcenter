@@ -14,6 +14,8 @@ khelpcenter (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
       supports this.
   * Make install file more generic to catch future updates to
     applications desktop file and binary name
+  * Clean up buld dependencies and remove everything not directly required by
+    khelpcenter itself
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:26:05 +0200
 
