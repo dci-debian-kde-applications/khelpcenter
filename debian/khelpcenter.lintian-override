@@ -1,5 +1,0 @@
-khelpcenter: package-name-doesnt-match-sonames libkdeinit5-khelpcenter
-khelpcenter: binary-without-manpage usr/bin/khelpcenter
-khelpcenter: desktop-entry-lacks-main-category usr/share/applications/Help.desktop
-khelpcenter: shlib-without-versioned-soname usr/lib/i386-linux-gnu/libkdeinit5_khelpcenter.so libkdeinit5_khelpcenter.so
-khelpcenter: postinst-must-call-ldconfig usr/lib/i386-linux-gnu/libkdeinit5_khelpcenter.so
