@@ -19,8 +19,8 @@ Package: khelpcenter
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Conflicts: khelpcenter4
-Breaks: khelpcenter-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa2)
-Replaces: khelpcenter-data (<< 4:5.2.0-0ubuntu1~ubuntu14.10~ppa2), khelpcenter4
+Breaks: khelpcenter-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa2)
+Replaces: khelpcenter-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa2), khelpcenter4
 Description: KDE documentation viewer
  KHelpCenter uses meta data files which describe the documentation
  available in the system. Each document is represented by a meta data

@@ -16,6 +16,7 @@ khelpcenter (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
     applications desktop file and binary name
   * Clean up buld dependencies and remove everything not directly required by
     khelpcenter itself
+  * Fix incorrectly bumped breaks and replaces against 5.0.0 -data package
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:26:05 +0200
 
