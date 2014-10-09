@@ -17,6 +17,13 @@ khelpcenter (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
   * Clean up buld dependencies and remove everything not directly required by
     khelpcenter itself
   * Fix incorrectly bumped breaks and replaces against 5.0.0 -data package
+  * Fix khelpcenter4 relationships
+    + Drop the Conflicts on khelpcenter4
+    + Break and Replace khelpcenter4 << 5.0
+    + This change is to stay consistent, previously a Conflicts was used on
+      khelpcenter (which was the package name in KDE 3) which in turn caused
+      upgrade problems when going from khelpcenter4 to khelpcenter (Frameworks
+      5 version) because of being to broad a relationship.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:26:05 +0200
 
