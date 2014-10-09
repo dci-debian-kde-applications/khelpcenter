@@ -1,4 +1,4 @@
-khelpcenter (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
+khelpcenter (4:5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
@@ -25,7 +25,10 @@ khelpcenter (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
       upgrade problems when going from khelpcenter4 to khelpcenter (Frameworks
       5 version) because of being to broad a relationship.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:26:05 +0200
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 09 Oct 2014 15:46:39 +0200
 
 khelpcenter (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
