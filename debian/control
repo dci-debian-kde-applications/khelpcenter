@@ -34,6 +34,14 @@ Description: KDE documentation viewer
  file which contains the same information as a document meta data
  file.
 
+Package: khelpcenter4
+Architecture: any
+Depends: khelpcenter
+Priority: extra
+Description: Transitional package for khelpcenter
+ This is a transitional package for khelpcenter, it can be safely
+ removed.
+
 Package: khelpcenter-dbg
 Section: debug
 Architecture: any
