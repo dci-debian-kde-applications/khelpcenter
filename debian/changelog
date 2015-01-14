@@ -1,3 +1,9 @@
+khelpcenter (4:5.1.2-0ubuntu2) vivid; urgency=medium
+
+  * Add khelpcenter4 transitional
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 12:40:35 +0100
+
 khelpcenter (4:5.1.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
