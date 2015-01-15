@@ -35,12 +35,12 @@ Description: KDE documentation viewer
  file.
 
 Package: khelpcenter4
-Architecture: any
-Depends: khelpcenter
+Depends: khelpcenter, ${misc:Depends}
+Architecture: all
 Priority: extra
-Description: Transitional package for khelpcenter
- This is a transitional package for khelpcenter, it can be safely
- removed.
+Section: oldlibs
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
 
 Package: khelpcenter-dbg
 Section: debug
