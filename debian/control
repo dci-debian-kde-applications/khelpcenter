@@ -13,7 +13,7 @@ Build-Depends: cmake,
                libkf5khtml-dev (>= 5.2.0),
                pkg-kde-tools,
                qtbase5-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/khelpcenter
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/khelpcenter.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/khelpcenter.git
