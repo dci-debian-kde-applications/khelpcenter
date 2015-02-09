@@ -1,5 +1,6 @@
 Source: khelpcenter
-Priority: extra
+Section: doc
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
@@ -13,7 +14,6 @@ Build-Depends: cmake,
                pkg-kde-tools,
                qtbase5-dev
 Standards-Version: 3.9.5
-Section: doc
 Homepage: https://projects.kde.org/projects/kde/workspace/khelpcenter
 
 Package: khelpcenter
@@ -36,18 +36,19 @@ Description: KDE documentation viewer
  file.
 
 Package: khelpcenter4
-Depends: khelpcenter, ${misc:Depends}
-Architecture: all
-Priority: extra
 Section: oldlibs
+Priority: extra
+Architecture: all
+Depends: khelpcenter, ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: khelpcenter-dbg
 Section: debug
+Priority: extra
 Architecture: any
-Recommends: qtbase5-dbg
 Depends: khelpcenter (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
 Description: KDE documentation viewer
  KHelpCenter uses meta data files which describe the documentation
  available in the system. Each document is represented by a meta data
