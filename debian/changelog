@@ -1,6 +1,7 @@
-khelpcenter (4:5.2.2-0ubuntu1) UNRELEASED; urgency=medium
+khelpcenter (4:5.2.2a-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * New upstream tarball.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 19 Mar 2015 15:04:29 -0700
 
