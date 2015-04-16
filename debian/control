@@ -14,6 +14,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Section: doc
 Homepage: https://projects.kde.org/projects/kde/workspace/khelpcenter
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/khelpcenter.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/khelpcenter.git
 
 Package: khelpcenter
 Architecture: any
