@@ -5,11 +5,12 @@ khelpcenter (4:5.3.1-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:55:11 +0200
 
-khelpcenter (4:5.2.95-0ubuntu1) UNRELEASED; urgency=medium
+khelpcenter (4:5.3.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Plasma 5.3 beta
+  * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 18 Apr 2015 14:43:55 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 Apr 2015 16:58:43 +0200
 
 khelpcenter (4:5.2.2-1) experimental; urgency=medium
 
