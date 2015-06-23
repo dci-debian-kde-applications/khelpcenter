@@ -1,3 +1,10 @@
+khelpcenter (4:5.3.1-0ubuntu2) wily; urgency=medium
+
+  * khelpcenter now depends on kdoctools5, this allows the program to load
+    themes. (LP: #1362753)
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 09 Jun 2015 02:22:38 +0200
+
 khelpcenter (4:5.3.1-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]

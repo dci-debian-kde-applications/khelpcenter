@@ -19,7 +19,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/khelpcenter.git
 
 Package: khelpcenter
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kdoctools5, ${misc:Depends}, ${shlibs:Depends}
 Breaks: khelpcenter-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa2),
         khelpcenter4 (<< 4:5.0.0)
 Replaces: khelpcenter-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa2),
