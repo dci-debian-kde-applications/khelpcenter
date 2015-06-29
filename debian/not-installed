@@ -1,1 +1,4 @@
 ./usr/share/dbus-1/interfaces/org.kde.khelpcenter.kcmhelpcenter.xml
+usr/share/doc/HTML/*/glossary/
+usr/share/doc/HTML/*/fundamentals/
+usr/share/doc/HTML/*/onlinehelp/
