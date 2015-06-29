@@ -1,3 +1,9 @@
+khelpcenter (4:5.3.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 29 Jun 2015 17:26:06 +0200
+
 khelpcenter (4:5.3.1-0ubuntu2) wily; urgency=medium
 
   * khelpcenter now depends on kdoctools5, this allows the program to load
