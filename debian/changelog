@@ -1,8 +1,12 @@
 khelpcenter (4:5.3.2-2) unstable; urgency=medium
 
-  * Add the missing Breaks/Replaces. (Closes: #790861, #790799)
+  * Add versionned Breaks/Replaces against all kde-l10n packages in
+    jessie, as this package now ships its own translations
+    - Bump Build-Depends against pkg-kde-tools to 0.15.18~
+    - Use its new l10n-packages.mk with a kde-l10n fixed version 4:4.14.0-2~
+    (Closes: #790779, #790861)
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 14:07:57 +0200
+ -- Didier Raboud <odyx@debian.org>  Fri, 03 Jul 2015 12:17:43 +0200
 
 khelpcenter (4:5.3.2-1) unstable; urgency=medium
 
