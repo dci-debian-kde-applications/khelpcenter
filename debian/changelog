@@ -1,3 +1,9 @@
+khelpcenter (4:5.3.2-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Vivid backport. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 04 Aug 2015 20:22:48 -0700
+
 khelpcenter (4:5.3.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
