@@ -8,10 +8,13 @@ Build-Depends: cmake (>= 2.8.12),
                extra-cmake-modules (>= 1.3.0~),
                kinit-dev (>= 5.2.0),
                libkf5config-dev (>= 5.2.0),
+               libkf5coreaddons-dev,
+               libkf5dbusaddons-dev,
                libkf5i18n-dev,
                libkf5kcmutils-dev (>= 5.2.0),
                libkf5kdelibs4support-dev (>= 5.2.0),
                libkf5khtml-dev (>= 5.2.0),
+               libkf5service-dev,
                pkg-kde-tools (>= 0.15.18~),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
@@ -23,9 +26,11 @@ Package: khelpcenter
 Architecture: any
 Depends: kdoctools5, ${misc:Depends}, ${shlibs:Depends}
 Breaks: khelpcenter-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa2),
-        khelpcenter4 (<< 4:5.0.0), ${kde-l10n:all}
+        khelpcenter4 (<< 4:5.0.0),
+        ${kde-l10n:all}
 Replaces: khelpcenter-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa2),
-          khelpcenter4 (<< 4:5.0.0), ${kde-l10n:all}
+          khelpcenter4 (<< 4:5.0.0),
+          ${kde-l10n:all}
 Description: KDE documentation viewer
  KHelpCenter uses meta data files which describe the documentation
  available in the system. Each document is represented by a meta data
