@@ -1,3 +1,11 @@
+khelpcenter (4:5.6.2-1~1.gbpa522c2) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @a522c22334524ad1a30191c26c6fa3a159ee9e79 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 06 Apr 2016 23:41:13 +0200
+
 khelpcenter (4:5.5.4-1) experimental; urgency=medium
 
   * New upstream release (5.5.0).
