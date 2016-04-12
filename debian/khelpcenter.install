@@ -16,6 +16,4 @@ usr/share/kde4/services/khelpcenter.desktop
 usr/share/khelpcenter/
 usr/share/kservices5/khelpcenter.desktop
 usr/share/kxmlgui5/khelpcenter/khelpcenterui.rc
-usr/share/locale/*/*/htmlsearch.mo
-usr/share/locale/*/*/kcmhtmlsearch.mo
 usr/share/locale/*/*/khelpcenter.mo
