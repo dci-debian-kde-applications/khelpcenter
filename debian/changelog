@@ -1,11 +1,12 @@
-khelpcenter (4:5.6.2-1~2.gbpc60927) UNRELEASED; urgency=medium
+khelpcenter (4:5.6.3-1~1.gbpc7a1ac) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c6092709c7dff41fffc2c8326dee100bb5fd1ece **
+  ** SNAPSHOT build @c7a1ac312121300aa13f86742bc3e42528c363e9 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @a522c22334524ad1a30191c26c6fa3a159ee9e79 **
 
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * uscan no longer supports this kind of watch files.
@@ -14,7 +15,7 @@ khelpcenter (4:5.6.2-1~2.gbpc60927) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 12 Apr 2016 10:11:50 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 19 Apr 2016 18:41:14 +0200
 
 khelpcenter (4:5.5.4-1) experimental; urgency=medium
 
