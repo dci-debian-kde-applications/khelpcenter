@@ -1,12 +1,14 @@
-khelpcenter (4:5.6.3-1~1.gbpc7a1ac) UNRELEASED; urgency=medium
+khelpcenter (4:16.04.0-1~1.gbp77b0fe) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c7a1ac312121300aa13f86742bc3e42528c363e9 **
+  ** SNAPSHOT build @77b0fe7f6699057d3cb53d23782db41296dbe347 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @a522c22334524ad1a30191c26c6fa3a159ee9e79 **
 
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
+  * debian/watch: khelpcenter moved to applications
+  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * uscan no longer supports this kind of watch files.
@@ -14,8 +16,9 @@ khelpcenter (4:5.6.3-1~1.gbpc7a1ac) UNRELEASED; urgency=medium
   * Automatic update with ddeb_migration3.py
   * Add upstream metadata (DEP-12)
   * Update install files
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 19 Apr 2016 18:41:14 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 24 Apr 2016 12:20:56 +0200
 
 khelpcenter (4:5.5.4-1) experimental; urgency=medium
 
