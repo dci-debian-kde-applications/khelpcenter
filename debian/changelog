@@ -1,6 +1,6 @@
-khelpcenter (4:16.04.0-1~1.gbp77b0fe) UNRELEASED; urgency=medium
+khelpcenter (4:16.04.0-1~2.gbpbb7de5) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @77b0fe7f6699057d3cb53d23782db41296dbe347 **
+  ** SNAPSHOT build @bb7de5c92af75b3f7d29d24b6425fafa93b4dbdc **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @a522c22334524ad1a30191c26c6fa3a159ee9e79 **
@@ -17,8 +17,11 @@ khelpcenter (4:16.04.0-1~1.gbp77b0fe) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * Update install files
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add pkg-config as a build dependency
+  * Update install files
+  * Add new lintian-override about ldconfig-trigger for libkdeinit5_khelpcenter.so
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 24 Apr 2016 12:20:56 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 25 Apr 2016 18:04:28 +0200
 
 khelpcenter (4:5.5.4-1) experimental; urgency=medium
 
