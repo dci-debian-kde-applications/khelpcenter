@@ -1,10 +1,6 @@
-khelpcenter (4:16.04.1-1~1.gbpc4ae0b) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @c4ae0b1b629eefcbd2a218a9afc9a96abedb2194 **
+khelpcenter (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @a522c22334524ad1a30191c26c6fa3a159ee9e79 **
-
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
   * debian/watch: khelpcenter moved to applications
@@ -15,14 +11,12 @@ khelpcenter (4:16.04.1-1~1.gbpc4ae0b) UNRELEASED; urgency=medium
   * New upstream release (5.5.5).
   * Automatic update with ddeb_migration3.py
   * Add upstream metadata (DEP-12)
-  * Update install files
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Add pkg-config as a build dependency
   * Update install files
   * Add new lintian-override about ldconfig-trigger for libkdeinit5_khelpcenter.so
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:41:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 01:39:51 +0200
 
 khelpcenter (4:5.5.4-1) experimental; urgency=medium
 
