@@ -1,16 +1,6 @@
-khelpcenter (4:16.04.1-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:16:01 +0200
-
-khelpcenter (4:16.04.0-1~1.gbp77b0fe) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @77b0fe7f6699057d3cb53d23782db41296dbe347 **
+khelpcenter (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @a522c22334524ad1a30191c26c6fa3a159ee9e79 **
-
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
   * debian/watch: khelpcenter moved to applications
@@ -21,10 +11,12 @@ khelpcenter (4:16.04.0-1~1.gbp77b0fe) UNRELEASED; urgency=medium
   * New upstream release (5.5.5).
   * Automatic update with ddeb_migration3.py
   * Add upstream metadata (DEP-12)
-  * Update install files
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add pkg-config as a build dependency
+  * Update install files
+  * Add new lintian-override about ldconfig-trigger for libkdeinit5_khelpcenter.so
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 24 Apr 2016 12:20:56 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 01:39:51 +0200
 
 khelpcenter (4:5.5.4-1) experimental; urgency=medium
 
