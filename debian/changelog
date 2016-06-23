@@ -1,10 +1,8 @@
-khelpcenter (4:16.04.2-1~1.gbp5e7039) UNRELEASED; urgency=medium
+khelpcenter (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @5e7039c72374e61ad8f126925438e6554c19f93d **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 06:41:10 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jun 2016 10:06:33 +0200
 
 khelpcenter (4:16.04.1-1) unstable; urgency=medium
 
