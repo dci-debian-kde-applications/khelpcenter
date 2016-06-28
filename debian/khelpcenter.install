@@ -2,6 +2,7 @@ etc/xdg/khelpcenter.categories
 usr/bin/khelpcenter
 usr/lib/*/libexec/khc_*
 usr/lib/*/libkdeinit5_khelpcenter.so
+usr/share/appdata/org.kde.Help.appdata.xml
 usr/share/applications/org.kde.Help.desktop
 usr/share/config.kcfg/khelpcenter.kcfg
 usr/share/doc/HTML/*/fundamentals/
