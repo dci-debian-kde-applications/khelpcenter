@@ -31,11 +31,9 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/khelpcenter.git
 Package: khelpcenter
 Architecture: any
 Depends: kdoctools5, ${misc:Depends}, ${shlibs:Depends}
-Breaks: khelpcenter-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa2),
-        khelpcenter4 (<< 4:5.0.0),
+Breaks: khelpcenter4 (<< 4:5.0.0),
         ${kde-l10n:all}
-Replaces: khelpcenter-data (<< 4:5.0.0-0ubuntu1~ubuntu14.10~ppa2),
-          khelpcenter4 (<< 4:5.0.0),
+Replaces: khelpcenter4 (<< 4:5.0.0),
           ${kde-l10n:all}
 Description: KDE documentation viewer
  KHelpCenter uses meta data files which describe the documentation
