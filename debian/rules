@@ -7,5 +7,8 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 l10npkgs_firstversion_ok := 4:4.14.0-2~
 include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
 
+override_dh_auto_install:
+	$(overridden_command) --destdir=debian/khelpcenter
+
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='khelpcenter-dbg (<= 4:5.5.5-1~~)'
