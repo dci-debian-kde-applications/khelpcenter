@@ -9,6 +9,7 @@ khelpcenter (4:16.04.2-2) UNRELEASED; urgency=medium
     libkf5kdelibs4support-dev build dependencies.
   * Remove khelpcenter-data breaks/replaces, since it applies only to Ubuntu.
   * Use the ${perl:Depends} substvar, since there are perl scripts.
+  * Recommend man-db, as khelpcenter can search into man pages.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jul 2016 16:00:36 +0200
 
