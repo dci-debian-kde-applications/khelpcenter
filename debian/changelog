@@ -1,10 +1,11 @@
-khelpcenter (4:16.04.2-3~1.gbp9b3488) UNRELEASED; urgency=medium
+khelpcenter (4:16.04.3-1~1.gbpb3a6bc) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9b3488d25a5f9006aa11a167abee6b3ef5b5ad1f **
+  ** SNAPSHOT build @b3a6bc8d910a2fe3f22a3a7970c4af81e5871f7d **
 
   * release to unstable, as team upload
+  * UNRELEASED
 
- -- Pino Toscano <pino@debian.org>  Sat, 02 Jul 2016 19:41:14 +0200
+ -- Pino Toscano <jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 00:41:20 +0200
 
 khelpcenter (4:16.04.2-2) unstable; urgency=medium
 
