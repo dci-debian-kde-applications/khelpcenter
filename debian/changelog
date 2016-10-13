@@ -1,6 +1,6 @@
-khelpcenter (4:16.08.1-1~1.gbp7366b3) UNRELEASED; urgency=medium
+khelpcenter (4:16.08.2-1~1.gbpa4e49a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @7366b3168182086ff0679f9a27f1c2b76159ffb9 **
+  ** SNAPSHOT build @a4e49a60404af927c9053305fb927e641af5ddd1 **
 
   [ Pino Toscano ]
   ** SNAPSHOT build @d5878d01f2c74148991cf29f773f9d62431cec28 **
@@ -11,8 +11,9 @@ khelpcenter (4:16.08.1-1~1.gbp7366b3) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:41:44 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 18:41:24 +0200
 
 khelpcenter (4:16.04.2-2) unstable; urgency=medium
 
