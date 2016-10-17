@@ -1,19 +1,12 @@
-khelpcenter (4:16.08.2-1~1.gbpa4e49a) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @a4e49a60404af927c9053305fb927e641af5ddd1 **
-
-  [ Pino Toscano ]
-  ** SNAPSHOT build @d5878d01f2c74148991cf29f773f9d62431cec28 **
-
-  * release to unstable, as team upload
-  * UNRELEASED
-  * UNRELEASED
+khelpcenter (4:16.08.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 18:41:24 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Oct 2016 23:31:37 +0200
 
 khelpcenter (4:16.04.2-2) unstable; urgency=medium
 
