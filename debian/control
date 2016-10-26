@@ -32,7 +32,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/khelpcenter.git
 Package: khelpcenter
 Architecture: any
 Depends: kdoctools5, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
-Recommends: man-db
+Recommends: man-db, kinit
 Breaks: khelpcenter4 (<< 4:5.0.0), ${kde-l10n:all}
 Replaces: khelpcenter4 (<< 4:5.0.0), ${kde-l10n:all}
 Description: KDE documentation viewer
