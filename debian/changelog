@@ -1,3 +1,11 @@
+khelpcenter (4:16.08.2-2~1.gbp62015f) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @62015fbc99fe6ceae196d93e41ba1ba9a970aee0 **
+
+  * Recommend kinit runtime dependency
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 26 Oct 2016 10:41:14 +0200
+
 khelpcenter (4:16.08.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
