@@ -11,4 +11,5 @@ usr/share/kde4/services/khelpcenter.desktop
 usr/share/khelpcenter/
 usr/share/kservices5/khelpcenter.desktop
 usr/share/kxmlgui5/khelpcenter/khelpcenterui.rc
+usr/share/locale/
 usr/share/metainfo/org.kde.Help.appdata.xml
