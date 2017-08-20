@@ -23,7 +23,7 @@ Build-Depends: cmake (>= 2.8.12),
                libxml2-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.18~),
-               qtbase5-dev (>= 5.4.0~)
+               qtbase5-dev (>= 5.4.0~),
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/kde/workspace/khelpcenter
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/khelpcenter.git
@@ -49,7 +49,7 @@ Description: KDE documentation viewer
 
 Package: khelpcenter4
 Section: oldlibs
-Priority: extra
+Priority: optional
 Architecture: all
 Depends: khelpcenter, ${misc:Depends}
 Description: transitional dummy package
