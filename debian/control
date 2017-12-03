@@ -48,7 +48,6 @@ Description: KDE documentation viewer
 
 Package: khelpcenter4
 Section: oldlibs
-Priority: optional
 Architecture: all
 Depends: khelpcenter, ${misc:Depends}
 Description: transitional dummy package
